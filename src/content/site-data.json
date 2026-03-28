@@ -1,0 +1,68 @@
+{
+  "nom": "Clément Bouvier",
+  "titre": "Cours d'anglais & d'allemand",
+  "sousTitre": "Bilingue anglais-allemand, j'accompagne les enfants et les collégiens dans l'apprentissage des langues avec une approche ludique et bienveillante.",
+  "apropos": {
+    "paragraphe1": "Fils d'un père anglais et d'une mère autrichienne, j'ai grandi dans un environnement trilingue. Cette immersion naturelle m'a permis de développer une maîtrise authentique de l'anglais et de l'allemand, bien au-delà de ce qu'un apprentissage académique peut offrir.",
+    "paragraphe2": "Passionné par la transmission et la pédagogie, je propose des cours spécialement adaptés aux enfants et aux collégiens. Mon approche se veut vivante, ludique et interactive, pour donner le goût des langues dès le plus jeune âge.",
+    "paragraphe3": "Que votre enfant ait besoin d'un soutien scolaire en anglais ou en allemand, qu'il souhaite renforcer ses bases ou prendre de l'avance, je m'adapte à son niveau et à son rythme pour l'accompagner vers la réussite."
+  },
+  "langues": [
+    {
+      "nom": "Anglais",
+      "drapeau": "🇬🇧",
+      "niveaux": "Primaire et collège",
+      "description": "Initiation, conversation, grammaire, soutien scolaire, préparation au Brevet. Cours ludiques et adaptés à chaque tranche d'âge."
+    },
+    {
+      "nom": "Allemand",
+      "drapeau": "🇩🇪",
+      "niveaux": "Primaire et collège",
+      "description": "Découverte, conversation, grammaire, soutien scolaire, culture germanophone. Approche vivante pour donner le goût de la langue."
+    }
+  ],
+  "tarifs": [
+    {
+      "formule": "Cours individuel",
+      "prix": "35",
+      "unite": "€/heure",
+      "details": "En visioconférence ou à domicile (selon localisation). Cours personnalisé adapté au niveau de votre enfant.",
+      "populaire": false
+    },
+    {
+      "formule": "Pack 10 cours",
+      "prix": "300",
+      "unite": "€ (soit 30€/h)",
+      "details": "Engagement sur 10 séances pour une progression optimale. Paiement en 1 ou 2 fois.",
+      "populaire": true
+    },
+    {
+      "formule": "Cours duo / trio",
+      "prix": "25",
+      "unite": "€/h/pers.",
+      "details": "À 2 ou 3 élèves de niveau similaire. Idéal entre camarades de classe ou frères et sœurs.",
+      "populaire": false
+    }
+  ],
+  "temoignages": [
+    {
+      "texte": "Clément a su mettre ma fille en confiance dès le premier cours. Ses notes en anglais ont nettement progressé en quelques mois !",
+      "auteur": "Sophie M.",
+      "detail": "Maman d'une élève de 4ème"
+    },
+    {
+      "texte": "Un vrai plaisir d'apprendre l'allemand avec Clément. Mon fils a pris confiance et participe enfin en classe. On sent que Clément vit la langue au quotidien.",
+      "auteur": "Thomas R.",
+      "detail": "Papa d'un élève de 5ème"
+    },
+    {
+      "texte": "Mon fils avait du mal en anglais au collège. Après quelques mois avec Clément, il a remonté sa moyenne de 4 points. Les cours sont vivants et motivants !",
+      "auteur": "Nathalie D.",
+      "detail": "Maman d'un élève de 3ème"
+    }
+  ],
+  "calendly_url": "https://calendly.com/VOTRE-LIEN-CALENDLY",
+  "email": "clement.bouvier@email.com",
+  "telephone": "",
+  "localisation": ""
+}

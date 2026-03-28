@@ -1,0 +1,61 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+locale: "fr"
+
+# Fichier unique de données du site
+collections:
+  - name: "settings"
+    label: "Paramètres du site"
+    files:
+      - name: "site-data"
+        label: "Données du site"
+        file: "src/content/site-data.json"
+        fields:
+          - { label: "Nom complet", name: "nom", widget: "string" }
+          - { label: "Titre principal", name: "titre", widget: "string" }
+          - { label: "Sous-titre (accroche)", name: "sousTitre", widget: "text" }
+
+          - label: "À propos"
+            name: "apropos"
+            widget: "object"
+            fields:
+              - { label: "Paragraphe 1 (parcours)", name: "paragraphe1", widget: "text" }
+              - { label: "Paragraphe 2 (pédagogie)", name: "paragraphe2", widget: "text" }
+              - { label: "Paragraphe 3 (objectifs)", name: "paragraphe3", widget: "text" }
+
+          - label: "Langues enseignées"
+            name: "langues"
+            widget: "list"
+            fields:
+              - { label: "Nom de la langue", name: "nom", widget: "string" }
+              - { label: "Emoji drapeau", name: "drapeau", widget: "string" }
+              - { label: "Niveaux proposés", name: "niveaux", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Tarifs"
+            name: "tarifs"
+            widget: "list"
+            fields:
+              - { label: "Nom de la formule", name: "formule", widget: "string" }
+              - { label: "Prix", name: "prix", widget: "string" }
+              - { label: "Unité (€/heure, etc.)", name: "unite", widget: "string" }
+              - { label: "Détails", name: "details", widget: "text" }
+              - { label: "Formule populaire ?", name: "populaire", widget: "boolean", default: false }
+
+          - label: "Témoignages"
+            name: "temoignages"
+            widget: "list"
+            fields:
+              - { label: "Texte du témoignage", name: "texte", widget: "text" }
+              - { label: "Nom", name: "auteur", widget: "string" }
+              - { label: "Détail (profession, classe...)", name: "detail", widget: "string" }
+
+          - { label: "URL Calendly", name: "calendly_url", widget: "string", hint: "Ex: https://calendly.com/clement-bouvier" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Téléphone (optionnel)", name: "telephone", widget: "string", required: false }
+          - { label: "Localisation (optionnel)", name: "localisation", widget: "string", required: false }
